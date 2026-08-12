@@ -258,7 +258,7 @@ function Field({
   label: string;
   name: string;
   type?: string;
-  error?: string;
+  error?: string | undefined;
 }) {
   return (
     <label className="block">
@@ -274,7 +274,7 @@ function Field({
   );
 }
 
-function Err({ msg }: { msg?: string }) {
+function Err({ msg }: { msg?: string | undefined }) {
   if (!msg) return null;
   return <span className="mt-1 block text-xs text-destructive">{msg}</span>;
 }
