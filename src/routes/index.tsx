@@ -15,7 +15,7 @@ import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 import { CookieConsent } from "@/components/site/CookieConsent";
 
-const title = "scaleai.studio — AI Marketing & Content Studio for European B2B";
+const title = "scaleAI.studio — AI Marketing & Content Studio for European B2B";
 const description =
   "Scale marketing across Europe with AI speed and human creativity. Video, performance marketing and multilingual content for B2B teams in Belgium, Switzerland and the EU.";
 
@@ -38,7 +38,7 @@ export const Route = createFileRoute("/")({
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "ProfessionalService",
-          name: "scaleai.studio",
+          name: "scaleAI.studio",
           description,
           areaServed: ["BE", "CH", "FR", "DE", "NL"],
           email: "hello@studio.com",

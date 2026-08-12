@@ -38,7 +38,7 @@ export function Header() {
             N
           </span>
           <span className="truncate font-display text-lg font-bold text-ink-foreground">
-            scaleai<span className="text-primary">.</span>studio
+            scaleAI<span className="text-primary">.</span>studio
           </span>
         </a>
 
