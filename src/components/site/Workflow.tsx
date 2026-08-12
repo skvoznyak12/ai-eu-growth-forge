@@ -27,7 +27,7 @@ const STEPS = [
 
 export function Workflow() {
   const [active, setActive] = useState(0);
-  const Step = STEPS[active];
+  const Step = STEPS[active]!;
   const Icon = Step.icon;
 
   return (

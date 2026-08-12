@@ -49,9 +49,9 @@ export function Trust() {
 
           <div className="mt-8 rounded-2xl border border-border bg-card p-7 shadow-soft">
             <Quote className="h-7 w-7 text-primary" />
-            <p className="mt-4 text-lg leading-relaxed">{TESTIMONIALS[active].quote}</p>
-            <p className="mt-5 font-display font-bold">{TESTIMONIALS[active].name}</p>
-            <p className="text-sm text-muted-foreground">{TESTIMONIALS[active].role}</p>
+            <p className="mt-4 text-lg leading-relaxed">{TESTIMONIALS[active]!.quote}</p>
+            <p className="mt-5 font-display font-bold">{TESTIMONIALS[active]!.name}</p>
+            <p className="text-sm text-muted-foreground">{TESTIMONIALS[active]!.role}</p>
           </div>
 
           <div className="mt-4 grid gap-3 sm:grid-cols-3">
