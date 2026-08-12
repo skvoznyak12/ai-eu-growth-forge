@@ -17,7 +17,7 @@ export function Footer() {
         <div className="grid gap-10 lg:grid-cols-[1.3fr_repeat(3,minmax(0,1fr))]">
           <div>
             <span className="font-display text-xl font-bold text-ink-foreground">
-              scaleai<span className="text-primary">.</span>tudio
+              scaleai<span className="text-primary">.</span>studio
             </span>
             <p className="mt-4 max-w-sm text-sm text-ink-muted">
               AI Marketing & Content Studio for European B2B. Brussels · Zurich. Technology,
@@ -51,7 +51,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 grid gap-3 border-t border-ink-border pt-6 text-xs text-ink-muted lg:grid-cols-[minmax(0,1fr)_auto]">
-          <p>© {new Date().getFullYear()} scaleai.tudio BV — VAT BE 0788.123.456. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} scaleai.studio BV — VAT BE 0788.123.456. All rights reserved.</p>
           <p>GDPR compliant · EU data residency · hello@studio.com</p>
         </div>
       </div>
