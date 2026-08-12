@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "scaleai.studio — AI Marketing & Content Studio for European B2B" },
+      { title: "scaleAI.studio — AI Marketing & Content Studio for European B2B" },
       {
         name: "description",
         content:
           "AI-powered marketing, video production and performance for B2B companies in Belgium, Switzerland and the EU.",
       },
-      { property: "og:site_name", content: "scaleai.studio" },
+      { property: "og:site_name", content: "scaleAI.studio" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
