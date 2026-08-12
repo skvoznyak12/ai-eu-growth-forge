@@ -185,7 +185,7 @@ export function Contact() {
               <label className="flex gap-3 text-xs text-muted-foreground">
                 <input type="checkbox" name="consent" className="mt-0.5 h-4 w-4 accent-[oklch(0.62_0.2_26)]" />
                 <span>
-                  I consent to NORDIA.studio processing my data to respond to this enquiry, in line
+                  I consent to scaleai.tudio processing my data to respond to this enquiry, in line
                   with the Privacy Policy. No data is shared outside the EU.
                 </span>
               </label>
